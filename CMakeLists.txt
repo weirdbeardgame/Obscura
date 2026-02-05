@@ -12,5 +12,6 @@ endif ()
 add_subdirectory(third-party)
 add_subdirectory(Extractor)
 add_subdirectory(ModelConverter)
+add_subdirectory(AudioConverter)
 
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/resource/ZeroFileDictionary.json DESTINATION ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
